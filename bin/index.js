@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 import chalk from 'chalk';
 import clear from 'clear';
 import figlet from 'figlet';
@@ -7,7 +8,7 @@ import { Sequelize } from 'sequelize';
 import checkboxPlus from 'inquirer-checkbox-plus-prompt';
 import selectline from 'inquirer-select-line';
 import fuzzypath from 'inquirer-fuzzy-path';
-import convert from './convert.js';
+import convert from '../convert.js';
 inquirer.registerPrompt('checkbox-plus', checkboxPlus);
 inquirer.registerPrompt('select-line', selectline);
 inquirer.registerPrompt('fuzzypath', fuzzypath);
